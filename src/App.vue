@@ -2,6 +2,6 @@
 </script>
 
 <template>
-    <main>
+    <main class=" min-h-screen text-dark-purple flex">
     </main>
 </template>
