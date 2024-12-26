@@ -17,7 +17,7 @@ const sidepages = ref([
 </script>
 
 <template>
-  <header class="flex flex-col min-w-64 py-12 px-8">
+  <header class="flex flex-col min-w-64 py-12 px-8 bg-white">
     <nav>
       <img 
         class="mb-14 hover:cursor-pointer" 
@@ -37,9 +37,9 @@ const sidepages = ref([
       </div>
     </nav>
 
-    <nav class="mt-auto mb-16">
+    <nav class="mt-auto mb-32">
       <hr class="border-t border-custom-gray opacity-50">
-      <div class="font-bold text-deep-teal my-8">Other</div>
+      <div class="custom-font-bold text-deep-teal my-8">Other</div>
 
       <div v-for="sidepage in sidepages" :key="sidepage.name" class="pb-6">
         <div class="flex gap-3 hover:cursor-pointer">
