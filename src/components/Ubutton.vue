@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <Button :class="`rounded-xl bg-customPink ${opacity}`">
+  <button :class="`rounded-xl bg-customPink ${opacity}`">
     {{ label }}
-  </Button>
+  </button>
 </template>
