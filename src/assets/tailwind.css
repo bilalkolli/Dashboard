@@ -5,3 +5,11 @@
 .custom-font {
     font-family: 'AirbnbCereal', sans-serif
 }
+
+.custom-font-bold {
+    font-family: 'AirbnbCerealBald', sans-serif
+}
+
+.custom-font-light {
+    font-family: 'AirbnbCerealLight', sans-serif
+}

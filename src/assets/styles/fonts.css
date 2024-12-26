@@ -1,4 +1,14 @@
 @font-face {
     font-family: 'AirbnbCereal';
+    src: url('./AirbnbCereal_W_Bk.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'AirbnbCerealBald';
     src: url('./AirbnbCereal_W_Bd.otf') format('opentype')
+}
+
+@font-face {
+    font-family: 'AirbnbCerealLight';
+    src: url('./AirbnbCereal_W_Lt.otf') format('opentype')
 }
