@@ -7,8 +7,8 @@ defineProps<{
 </script>
 
 <template>
-    <div class="flex bg-[url('/BG.webp')] bg-cover bg-left rounded-lg">
-      <div class="py-16 pl-20 rounded-lg">
+    <div class="flex bg-[url('/BG.webp')] bg-cover bg-left rounded-2xl">
+      <div class="py-16 pl-20">
         <h2 class="text-3xl custom-font-bold mb-4">
           {{ promotion }}% Discount!
         </h2>
@@ -22,8 +22,8 @@ defineProps<{
         />
       </div>
       <img 
-        class="ml-auto" 
-        src="/image.svg"  
+        class="ml-auto transform scale-translate" 
+        src="/image.svg"
         alt="Image building call to Action"
       >
     </div>

@@ -20,13 +20,13 @@ const sidepages = ref([
   <header class="flex flex-col min-w-64 py-12 px-8 bg-white">
     <nav>
       <img 
-        class="mb-14 hover:cursor-pointer" 
+        class="mb-20 hover:cursor-pointer" 
         src="/Logo.svg" 
         width="120px" 
         alt="logo of the Dashboard"
       >
 
-      <div v-for="mainpage in mainpages" :key="mainpage.name" class="py-3">
+      <div v-for="mainpage in mainpages" :key="mainpage.name" class="py-4">
         <div 
           class="flex gap-3 hover:cursor-pointer"
           :class="{'text-customPink text-lg': mainpage.name === mainpages[0].name}"

@@ -13,8 +13,8 @@ const User: IUser = {
 </script>
 
 <template>
-  <section class="bg-light-gray py-10 px-10 text-dark-purple">
-    <div class="flex justify-between items-start mb-10">
+  <section class="bg-light-gray py-10 px-8 text-dark-purple">
+    <div class="flex justify-between items-start mb-16">
       <div>
         <h1 class="text-3xl mb-2 custom-font-bold">
           Good Morning, 
@@ -27,7 +27,7 @@ const User: IUser = {
 
       <div class="flex items-center custom-font-bold rounded-xl bg-white p-2">
         <Ubutton 
-          class="px-8 py-2" 
+          class="px-7 py-1.5" 
           label="Buy" 
           :opacity="'bg-opacity-10'" 
         />

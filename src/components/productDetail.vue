@@ -42,7 +42,7 @@ const images = ref([
 </script>
 
 <template>
-    <div class="flex flex-col rounded-xl bg-white px-3 py-4 min-w-72">
+    <div class="flex flex-col rounded-xl bg-white px-3 py-7 min-w-72">
       <img class="pb-3" src="/image1.webp" width="330" alt="Main Image" />
       <div class="flex space-x-2">
         <img 
@@ -53,6 +53,7 @@ const images = ref([
           :alt="image.alt" 
         />
       </div>
+    <div class="ml-3">
       <h4 class="text-xl custom-font-bold my-4">
         {{ product.name }}
       </h4>
@@ -76,6 +77,7 @@ const images = ref([
       <h5 class="text-lg custom-font-bold">Description</h5>
       <p class="custom-font-light max-w-80 my-3">{{ product.Description }}</p>
       <p class="text-customPink text-base">Read More</p>
+    </div>
 
     <img 
       class="my-4" 
@@ -84,7 +86,7 @@ const images = ref([
     />
     
     <Ubutton
-      class="px-2 py-3 text-white rounded-lg text-sm"
+      class="px-2 py-3 text-white rounded-md custom-font-bold text-sm"
       :label="`Price: $${product.Price}`"
       opacity="bg-opacity-100"
     />

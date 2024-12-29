@@ -13,3 +13,9 @@
 .custom-font-light {
     font-family: 'AirbnbCerealLight', sans-serif
 }
+
+@layer utilities {
+    .scale-translate {
+      transform: scale(1.2) translate(-22px, -25px)
+    }
+}

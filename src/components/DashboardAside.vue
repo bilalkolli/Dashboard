@@ -9,8 +9,8 @@ defineProps<{
 </script>
 
 <template>
-  <section class="bg-light-gray pt-10 px-10 text-dark-purple min-w-96">
-  <div class="flex gap-2 items-center mb-10 justify-end text-[#858688]">
+  <section class="bg-light-gray p-10 text-dark-purple min-w-96">
+  <div class="flex gap-2 items-center mb-24 justify-end text-[#858688]">
     <Icon 
       class="mr-8" 
       icon="tdesign:notification" 
