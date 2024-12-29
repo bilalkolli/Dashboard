@@ -65,7 +65,8 @@ const images = ref([
               width="1em" 
               height="1em" 
             />
-            <span>{{ feature.value }}</span>
+            <span v-if="feature.label === 'Living Area'">{{ feature.value }}m</span>
+            <span v-else>{{ feature.value }}</span>
           </p>
           <p class="text-light-blue text-xs">{{ feature.label }}</p>
         </div>

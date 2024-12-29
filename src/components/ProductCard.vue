@@ -72,7 +72,8 @@ const titles = ['Location', 'Type']
         <div v-for="(feature, featureIndex) in product.features" :key="featureIndex" class="text-center">
           <p class="flex gap-2 items-center custom-font-bold">
             <Icon :icon="feature.icon" width="1em" height="1em" />
-            <span>{{ feature.value }}</span>
+            <span v-if="feature.label === 'Living Area'">{{ feature.value }}m</span>
+            <span v-else>{{ feature.value }}</span>
           </p>
           <p class="text-light-blue text-xs">{{ feature.label }}</p>
         </div>

@@ -65,11 +65,12 @@ const HomeSuggestions = ref<IHomeSuggestions[]>([
                 >
                     <p class="flex items-center gap-2">
                         <Icon :icon="feature.icon" class="text-lg" />
-                        <span>{{ feature.value }}</span>
+                        <span v-if="feature.value === 700">{{ feature.value }}m</span>
+                        <span v-else>{{ feature.value }}</span>
                     </p>
                 </div>
             </div>
-            <p class="text-sm text-[#7C8DA6] flex items-center gap-3 mt-2">
+            <p class="text-sm text-[#7C8DA6] flex items-center gap-1.5 mt-2">
                 <Icon icon="fluent:location-12-filled" width="1.25rem" />
                 {{ home.Location }}
             </p>
