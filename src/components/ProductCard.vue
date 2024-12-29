@@ -45,12 +45,18 @@ const titles = ['Location', 'Type']
             class="absolute left-3 top-1/2 transform -translate-y-1/2" 
             color="#858688" 
             width="1.5em" 
-            height="1.5em" 
           />
           <input
             :id="title"
             :placeholder="index === 0 ? 'California' : 'Industrial Home'"
-            class="pl-11 p-3 rounded-lg border-[1px] border-[#858688] border-opacity-20 bg-light-gray min-w-96 placeholder:text-[#858688]"
+            class="pl-10 p-3 rounded-lg border-[1px] border-[#858688] border-opacity-20 bg-light-gray min-w-96 placeholder:text-[#858688]"
+          />
+          <Icon 
+            v-if="title === 'Type'" 
+            icon="mdi:chevron-down" 
+            class="absolute right-1 top-1/2 transform -translate-y-1/2" 
+            color="#858688" 
+            width="2em"
           />
         </div>
       </div>
