@@ -3,11 +3,11 @@ import { ref } from 'vue'
 import { Icon } from "@iconify/vue"
 
 const mainpages = ref([
-  { name: "Dashboard", icon: "ion:home-sharp" },
-  { name: "Discover", icon: "iconamoon:discover-thin" },
-  { name: "My order", icon: "solar:box-linear" },
-  { name: "Message", icon: "bx:message-minus" },
-  { name: "My Profile", icon: "iconoir:profile-circle" }
+  { name: "Dashboard", icon: "/home.svg" },
+  { name: "Discover", icon: "/discover.svg" },
+  { name: "My order", icon: "/box.svg" },
+  { name: "Message", icon: "/message.svg" },
+  { name: "My Profile", icon: "/profile-circle.svg" }
 ])
 
 const sidepages = ref([
@@ -29,9 +29,9 @@ const sidepages = ref([
       <div v-for="mainpage in mainpages" :key="mainpage.name" class="py-4">
         <div 
           class="flex gap-3 hover:cursor-pointer"
-          :class="{'text-customPink text-lg': mainpage.name === mainpages[0].name}"
+          :class="{'text-customPink text-lg gap-5': mainpage.name === mainpages[0].name}"
         >
-          <Icon :icon="mainpage.icon" width="1.7em" height="1.7em" />
+          <img :src="mainpage.icon" />
           {{ mainpage.name }}
         </div>
       </div>
