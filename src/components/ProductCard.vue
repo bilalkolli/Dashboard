@@ -44,26 +44,26 @@ const titles = ['Location', 'Type']
             :icon="index === 0 ? 'hugeicons:location-01' : 'lucide:home'" 
             class="absolute left-3 top-1/2 transform -translate-y-1/2" 
             color="#858688" 
-            width="1.5em" 
+            width="1.50em" 
           />
           <input
             :id="title"
             :placeholder="index === 0 ? 'California' : 'Industrial Home'"
-            class="pl-10 p-3 rounded-lg border-[1px] border-[#858688] border-opacity-20 bg-light-gray min-w-96 placeholder:text-[#858688]"
+            class="pl-10 p-4 rounded-xl border-[1px] border-[#858688] border-opacity-20 bg-light-gray min-w-96 placeholder:text-[#858688]"
           />
           <Icon 
             v-if="title === 'Type'" 
             icon="mdi:chevron-down" 
             class="absolute right-1 top-1/2 transform -translate-y-1/2" 
             color="#858688" 
-            width="2em"
+            width="2.2em"
           />
         </div>
       </div>
 
-      <Ubutton class="px-9 py-3 text-white custom-font-bold" label="Search" :opacity="'bg-opacity-100'" />
+      <Ubutton class="px-8 py-4 text-white custom-font-bold" label="Search" :opacity="'bg-opacity-100'" />
 
-      <div class="bg-white flex items-center rounded-lg px-5 py-3">
+      <div class="bg-white flex items-center rounded-xl px-5 py-4">
         <Icon icon="solar:filter-linear" width="1.7em" color="7C8DA6" />
       </div>
     </div>
