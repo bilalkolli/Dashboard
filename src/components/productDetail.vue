@@ -87,7 +87,7 @@ const images = ref([
     />
     
     <Ubutton
-      class="px-2 py-3 text-white rounded-md custom-font-bold text-sm"
+      class="px-2 py-4 text-white rounded-md custom-font-bold"
       :label="`Price: $${product.Price}`"
       opacity="bg-opacity-100"
     />
