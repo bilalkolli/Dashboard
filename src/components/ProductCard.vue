@@ -53,7 +53,7 @@ const titles = ['Location', 'Type']
           />
           <Icon 
             v-if="title === 'Type'" 
-            icon="mdi:chevron-down" 
+            icon="iconoir:nav-arrow-down"
             class="absolute right-1 top-1/2 transform -translate-y-1/2" 
             color="#858688" 
             width="2.2em"
