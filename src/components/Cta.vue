@@ -23,7 +23,9 @@ defineProps<{
       </div>
       <img 
         class="ml-auto transform scale-translate" 
-        src="/image.svg"
+        width="274px"
+        height="303px"
+        src="/image.webp"
         alt="Image building call to Action"
       >
     </div>

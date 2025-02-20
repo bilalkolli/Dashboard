@@ -11,7 +11,7 @@ const Suggestions = ref<string[]>([
 
 const HomeSuggestions = ref<IHomeSuggestions[]>([
     {
-        image: '/image8.svg',
+        image: '/image8.webp',
         title: 'Sharma Springs 5 bds Luxurious',
         price: 2954.99,
         Location: '2913 Frank Avenue Springfield, 01105',
@@ -22,7 +22,7 @@ const HomeSuggestions = ref<IHomeSuggestions[]>([
         ]
     },
     {
-        image: '/image7.svg',
+        image: '/image7.webp',
         title: 'Sharma Springs 5 bds Luxurious',
         price: 2954.99,
         Location: '2913 Frank Avenue Springfield, 01105',

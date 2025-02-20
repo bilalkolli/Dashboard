@@ -23,6 +23,7 @@ const sidepages = ref([
         class="mb-20 hover:cursor-pointer" 
         src="/Logo.svg" 
         width="120px" 
+        height="34px"
         alt="logo of the Dashboard"
       >
 
@@ -34,6 +35,8 @@ const sidepages = ref([
           <img 
             :src="mainpage.icon"
             :alt="mainpage.name"
+            width="25px"
+            height="24px"
           />
           {{ mainpage.name }}
         </div>

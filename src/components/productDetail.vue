@@ -43,7 +43,7 @@ const images = ref([
 
 <template>
     <div class="flex flex-col rounded-xl bg-white px-3 py-7 min-w-72">
-      <img class="pb-3" src="/image1.webp" width="330" alt="Main Image" />
+      <img class="pb-3" src="/image1.webp" width="330px" height="135px" alt="Main Image" />
       <div class="flex space-x-2">
         <img 
           v-for="(image, index) in images" 

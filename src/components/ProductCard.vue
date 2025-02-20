@@ -15,12 +15,12 @@ const baseProduct: IProductCard = {
     { icon: "fa:bath", value: 2, label: "Bathrooms" },
     { icon: "gis:square-pt", value: 600, label: "Living Area" },
   ],
-  Image: "image4.jpg"
+  Image: "image4.webp"
 }
 
 // Génération des 3 produits avec des images uniques
 const products = ref<IProductCard[]>(
-  ['image4.jpg', 'image5.jpg', 'image6.jpg'].map((img) => ({
+  ['image4.webp', 'image5.webp', 'image6.webp'].map((img) => ({
     ...baseProduct,
     Image: img,
   }))
@@ -31,7 +31,7 @@ const titles = ['Location', 'Type']
 
 <template>
   <div class="my-7">
-    <h4 class="custom-font-bold text-2xl">Find your Best House</h4>
+    <p class="custom-font-bold text-2xl">Find your Best House</p>
     <div class="flex items-end justify-evenly gap-6 mt-6">
       <div 
         v-for="(title, index) in titles" 
@@ -71,7 +71,7 @@ const titles = ['Location', 'Type']
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
     <div v-for="(product, index) in products" :key="index" class="rounded-xl p-3 bg-white">
-      <img :src="product.Image" width="310px" alt="House Image" class="rounded-lg mb-4" />
+      <img :src="product.Image" width="310px" height="177px" alt="House Image" class="rounded-lg mb-4" />
       <p class="text-2xl custom-font-bold mb-2">${{ product.price }}</p>
       
       <div class="flex gap-10 mb-4">

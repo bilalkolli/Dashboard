@@ -18,10 +18,11 @@ defineProps<{
     />
     <img 
       :src="User.icon"
-      width="45px" 
+      width="45px"
+      height="45px"
       alt="User Icon" 
     />
-    <Icon icon="iconoir:nav-arrow-down" width="1.7em" />
+    <Icon icon="iconoir:nav-arrow-down" width="1.7em" height="1.7em" />
   </div>
 
   <div>
