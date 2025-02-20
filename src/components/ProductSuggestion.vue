@@ -55,7 +55,7 @@ const HomeSuggestions = ref<IHomeSuggestions[]>([
                 class="rounded-lg" 
             />
             <div class="flex flex-col gap-1">
-            <h3 class="custom-font-bold">{{ home.title }}</h3>
+            <p class="custom-font-bold">{{ home.title }}</p>
             <p class="custom-font-bold text-customPink">${{ home.price }}</p>
             <div class="flex gap-10 text-[#7C8DA6]">
                 <div 

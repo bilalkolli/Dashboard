@@ -54,9 +54,9 @@ const images = ref([
         />
       </div>
     <div class="ml-3">
-      <h5 class="text-xl custom-font-bold my-4">
+      <p class="text-xl custom-font-bold my-4">
         {{ product.name }}
-      </h5>
+      </p>
       <div class="flex gap-10 mb-2">
         <div v-for="(feature, index) in features" :key="index">
           <p class="flex gap-2 items-center custom-font-bold">
@@ -75,7 +75,7 @@ const images = ref([
         <Icon icon="mynaui:location" width="2.3em"/>
         {{ product.Adress }}
       </p>
-      <h5 class="text-lg custom-font-bold">Description</h5>
+      <p class="text-lg custom-font-bold">Description</p>
       <p class="custom-font-light max-w-80 my-3">{{ product.Description }}</p>
       <p class="text-customPink text-base">Read More</p>
     </div>
