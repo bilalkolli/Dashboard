@@ -31,7 +31,7 @@ const titles = ['Location', 'Type']
 
 <template>
   <div class="my-7">
-    <h5 class="custom-font-bold text-2xl">Find your Best House</h5>
+    <h4 class="custom-font-bold text-2xl">Find your Best House</h4>
     <div class="flex items-end justify-evenly gap-6 mt-6">
       <div 
         v-for="(title, index) in titles" 

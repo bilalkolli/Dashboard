@@ -54,9 +54,9 @@ const images = ref([
         />
       </div>
     <div class="ml-3">
-      <h4 class="text-xl custom-font-bold my-4">
+      <h5 class="text-xl custom-font-bold my-4">
         {{ product.name }}
-      </h4>
+      </h5>
       <div class="flex gap-10 mb-2">
         <div v-for="(feature, index) in features" :key="index">
           <p class="flex gap-2 items-center custom-font-bold">

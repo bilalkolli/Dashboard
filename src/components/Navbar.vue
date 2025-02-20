@@ -31,7 +31,10 @@ const sidepages = ref([
           class="flex gap-3 hover:cursor-pointer"
           :class="{'text-customPink text-lg gap-5': mainpage.name === mainpages[0].name}"
         >
-          <img :src="mainpage.icon" />
+          <img 
+            :src="mainpage.icon"
+            :alt="mainpage.name"
+          />
           {{ mainpage.name }}
         </div>
       </div>
